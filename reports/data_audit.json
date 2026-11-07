@@ -1,0 +1,157 @@
+{
+  "conflicting_labels": [
+    "84fc3269caf13624056d913c469523f9f8dc74df87a77eb2f46450f1b505e1fd"
+  ],
+  "cross_split_duplicate_content": [],
+  "duplicate_content": [
+    {
+      "images": [
+        {
+          "path": "PA100k/release_data/release_data/004358.jpg",
+          "split": "train"
+        },
+        {
+          "path": "PA100k/release_data/release_data/066387.jpg",
+          "split": "train"
+        }
+      ],
+      "sha256": "51d71e9cf93681dd514b7fbc522c18cf299457fce1ec0a24f206acf526628ef6"
+    },
+    {
+      "images": [
+        {
+          "path": "PA100k/release_data/release_data/005982.jpg",
+          "split": "train"
+        },
+        {
+          "path": "PA100k/release_data/release_data/037123.jpg",
+          "split": "train"
+        }
+      ],
+      "sha256": "58c564048a1c327ec2da6994ed3504dc27b114ebe74d2fb04a095ad9d0ed003a"
+    },
+    {
+      "images": [
+        {
+          "path": "PA100k/release_data/release_data/014764.jpg",
+          "split": "train"
+        },
+        {
+          "path": "PA100k/release_data/release_data/053090.jpg",
+          "split": "train"
+        }
+      ],
+      "sha256": "2965ed877d78551fde9ecdfdfc373bf21b177bc8f1b9ea924c36bb3eafaf8e52"
+    },
+    {
+      "images": [
+        {
+          "path": "PA100k/release_data/release_data/016759.jpg",
+          "split": "train"
+        },
+        {
+          "path": "PA100k/release_data/release_data/063062.jpg",
+          "split": "train"
+        }
+      ],
+      "sha256": "e7d00bf026a08be26124a8616048c1f94329ab67c84ea7e3741c80abcce48c83"
+    },
+    {
+      "images": [
+        {
+          "path": "PA100k/release_data/release_data/031304.jpg",
+          "split": "train"
+        },
+        {
+          "path": "PA100k/release_data/release_data/041656.jpg",
+          "split": "train"
+        }
+      ],
+      "sha256": "9946d0fe387d94ec5c14582750272af814fb0a438c9977c498a1b42e6ba71916"
+    },
+    {
+      "images": [
+        {
+          "path": "PA100k/release_data/release_data/044437.jpg",
+          "split": "train"
+        },
+        {
+          "path": "PA100k/release_data/release_data/067432.jpg",
+          "split": "train"
+        }
+      ],
+      "sha256": "6ec5780983ef80350287945babd15e5f9dc1fab7d0b11b79bc76d0e3906189f1"
+    },
+    {
+      "images": [
+        {
+          "path": "PA100k/release_data/release_data/052602.jpg",
+          "split": "train"
+        },
+        {
+          "path": "PA100k/release_data/release_data/054232.jpg",
+          "split": "train"
+        }
+      ],
+      "sha256": "84fc3269caf13624056d913c469523f9f8dc74df87a77eb2f46450f1b505e1fd"
+    },
+    {
+      "images": [
+        {
+          "path": "PETA/images/01474.png",
+          "split": "train"
+        },
+        {
+          "path": "PETA/images/01475.png",
+          "split": "train"
+        }
+      ],
+      "sha256": "a1082b45858b0ed76aab806bdae83717e9447f653dc7ac7f7098a54846962524"
+    }
+  ],
+  "duplicate_policy": "Cross-split duplicates fail. Within-train duplicates, including official label conflicts, are retained and grouped in internal partitions.",
+  "images_checked": true,
+  "passed": true,
+  "path_overlap": [],
+  "scope": "full images and annotations",
+  "splits": {
+    "train": {
+      "corrupt_count": 0,
+      "corrupt_examples": [],
+      "domains": {
+        "Market1501": 10000,
+        "PA100k": 79001,
+        "PETA": 8668
+      },
+      "hashes": {
+        "ids": "ed24309fe944e19e9098734f05ba47158e5b7e3052f387e6dd79df07cf6a508e",
+        "queries": "5bf5a8d33629b216f59b599e3152a2596fe5a7bb09e1dcb5f32d9c5ac6466a3a",
+        "task1_gt": "e42084aa43b31d4074624265b8239437afc6e47a359a8c0129fae4513a77d424",
+        "task2_gt": "e42084aa43b31d4074624265b8239437afc6e47a359a8c0129fae4513a77d424"
+      },
+      "images": 97669,
+      "missing_count": 0,
+      "missing_examples": [],
+      "queries": 7204
+    },
+    "val": {
+      "corrupt_count": 0,
+      "corrupt_examples": [],
+      "domains": {
+        "Market1501": 16458,
+        "PA100k": 9986,
+        "PETA": 6963
+      },
+      "hashes": {
+        "ids": "7713818ec647bc02c151b073b3e486135beabfc29d3243e3cac919a84dc33ede",
+        "queries": "d9f850d7caa461b9acb2ccd9ff03521a3eb4e04fb9a9cab8b752a22f714c38dd",
+        "task1_gt": "783be600e359052c9dafe856cbfa2aee45bbd4e3eac10309394e2388bcf7c2bc",
+        "task2_gt": "783be600e359052c9dafe856cbfa2aee45bbd4e3eac10309394e2388bcf7c2bc"
+      },
+      "images": 33407,
+      "missing_count": 0,
+      "missing_examples": [],
+      "queries": 3462
+    }
+  }
+}

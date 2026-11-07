@@ -1,0 +1,10 @@
+# Training / selection environment used for the reported results (GPU, CUDA 13.0)
+torch==2.11.0
+torchvision==0.26.0
+timm==1.0.22
+numpy==2.4.4
+Pillow==12.2.0
+safetensors
+tqdm
+pytest
+scipy

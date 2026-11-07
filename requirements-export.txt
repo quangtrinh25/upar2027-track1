@@ -1,0 +1,7 @@
+# Export / packaging environment: must match the competition runtime (pytorch/pytorch:2.4.1-cuda12.1-cudnn9-runtime)
+torch==2.4.1
+torchvision==0.19.1
+timm==1.0.22
+numpy==2.4.6
+Pillow
+safetensors
